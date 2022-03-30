@@ -3,6 +3,12 @@
 * This file contains the CSS for index.html
 */
 
+.header {
+  background-color: #af1818;
+  text-align: center;
+  padding: 20px;
+}
+
 body {
   background-color: #abdec6;
   font-size: 10pt;

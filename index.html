@@ -15,7 +15,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.purple-pink.min.css" />
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.pink-red.min.css" />
     <link rel="stylesheet" href="./css/style.css">
     <title>Area of a Trapezoid, with JS</title>
   </head>
@@ -42,8 +42,8 @@
     <form action="#">
   <p>a base:</p>
   <div class="mdl-textfield mdl-js-textfield">
-    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="street-number">
-    <label class="mdl-textfield__label" for="street-number">enter here...</label>
+    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="a-base-of-trapezoid">
+    <label class="mdl-textfield__label" for="a-base-of-trapezoid">enter here...</label>
     <span class="mdl-textfield__error">Input is not a number!</span>
   </div>
 </form>
@@ -51,8 +51,8 @@
     <form action="#">
   <p>b base:</p>
   <div class="mdl-textfield mdl-js-textfield">
-    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="street-number">
-    <label class="mdl-textfield__label" for="street-number">enter here...</label>
+    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="b-base-of-trapezoid">
+    <label class="mdl-textfield__label" for="b-base-of-trapezoid">enter here...</label>
     <span class="mdl-textfield__error">Input is not a number!</span>
   </div>
 </form>
@@ -60,21 +60,22 @@
     <form action="#">
   <p>height:</p>
   <div class="mdl-textfield mdl-js-textfield">
-    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="street-number">
-    <label class="mdl-textfield__label" for="street-number">enter here...</label>
+    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="height-of-trapezoid">
+    <label class="mdl-textfield__label" for="height-of-trapezoid">enter here...</label>
     <span class="mdl-textfield__error">Input is not a number!</span>
   </div>
 </form>
         <!-- Raised button with ripple -->
-<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="enterClicked()">
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" 
+onclick="calculate()">
   Calculate
         </button>
-        <br>
-        <br>
-        <br>
-        <div id="user-info">
-          <div id="address"></div>
-        </div>
+ <br />
+     <p>
+        <div id="answers">
+          <div id="area"></div>
+          </div>
+        </p>
       </main>
     </div>
   </body>

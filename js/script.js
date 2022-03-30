@@ -16,7 +16,7 @@ function calculate() {
   const heightOfTrapezoid = parseInt(document.getElementById('height-of-trapezoid').value)
 
   // process
-  const area = (aBaseOfTrapezoid + bBaseOfTrapezoid) / 2) * heightOfTrapezoid
+  const area = (aBaseOfTrapezoid + bBaseOfTrapezoid) / 2), * heightOfTrapezoid
 
   // output
   document.getElementById('area').innerHTML = '<p>Area is: ' + area + ' cm²</p>'

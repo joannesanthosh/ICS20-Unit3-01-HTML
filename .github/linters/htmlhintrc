@@ -22,5 +22,5 @@
   "id-class-value": false,
   "href-abs-or-rel": false,
   "attr-unsafe-chars": true,
-  "head-script-disabled": true
+  "head-script-disabled": true, 
 }

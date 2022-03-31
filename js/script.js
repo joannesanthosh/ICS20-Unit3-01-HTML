@@ -9,6 +9,7 @@
 /**
  * This function calculates the area of a trapezoid.
  */
+
 function calculate() {
   // input
   const aBaseOfTrapezoid = parseInt(document.getElementById('a-base-of-trapezoid').value)
@@ -19,5 +20,5 @@ function calculate() {
   const area = ((aBaseOfTrapezoid + bBaseOfTrapezoid) / 2) * heightOfTrapezoid
 
   // output
-  document.getElementById('area').innerHTML = '<p>Area is: ' + area + ' cm²</p>'
+  document.getElementById('area').innerHTML = '<p>The area of the trapezoid is: ' + area + ' cm²</p>'
   }
